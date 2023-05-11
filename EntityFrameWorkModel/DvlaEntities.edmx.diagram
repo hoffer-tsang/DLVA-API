@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5bebdf653c9541b9bccab6f7737b26d3" Name="Diagram1">
+        <EntityTypeShape EntityType="DVLAModel.Car" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DVLAModel.Address" Width="1.5" PointX="3.375" PointY="5.125" />
+        <EntityTypeShape EntityType="DVLAModel.Colour" Width="1.5" PointX="3" PointY="0.5" />
+        <EntityTypeShape EntityType="DVLAModel.Make" Width="1.5" PointX="5" PointY="2.625" />
+        <EntityTypeShape EntityType="DVLAModel.Model" Width="1.5" PointX="2.875" PointY="2.375" />
+        <EntityTypeShape EntityType="DVLAModel.Owner" Width="1.5" PointX="0.875" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="DVLAModel.FK_Owner_Address" />
+        <AssociationConnector Association="DVLAModel.FK_Car_Colour" />
+        <AssociationConnector Association="DVLAModel.FK_Car_Model" />
+        <AssociationConnector Association="DVLAModel.FK_Car_Owner" />
+        <AssociationConnector Association="DVLAModel.FK_Model_Make" />
+        <EntityTypeShape EntityType="DVLAModel.Camera" Width="1.5" PointX="5.625" PointY="5.375" />
+        <AssociationConnector Association="DVLAModel.FK_Camera_Address" />
+        <EntityTypeShape EntityType="DVLAModel.SpeedCamera" Width="1.5" PointX="7.875" PointY="4.75" />
+        <EntityTypeShape EntityType="DVLAModel.TrafficLightCamera" Width="1.5" PointX="7.875" PointY="7.125" />
+        <AssociationConnector Association="DVLAModel.FK_SpeedCamera_Camera" />
+        <AssociationConnector Association="DVLAModel.FK_TrafficLightCamera_Camera" />
+        <EntityTypeShape EntityType="DVLAModel.Fine" Width="1.5" PointX="7.375" PointY="2.25" />
+        <EntityTypeShape EntityType="DVLAModel.Sighting" Width="1.5" PointX="10.375" PointY="3.25" />
+        <AssociationConnector Association="DVLAModel.FK_Sighting_Camera" />
+        <AssociationConnector Association="DVLAModel.FK_Sighting_Car" />
+        <AssociationConnector Association="DVLAModel.FK_Fine_Sighting" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

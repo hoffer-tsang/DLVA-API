@@ -1,0 +1,8 @@
+﻿CREATE TABLE dbo.Make
+(
+	MakeId			INT IDENTITY(1,1) NOT NULL,
+	Name			NVARCHAR(50)
+
+	CONSTRAINT			PK_Make
+        PRIMARY KEY		(MakeId)
+)

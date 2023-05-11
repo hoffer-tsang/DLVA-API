@@ -1,0 +1,12 @@
+02/12/2022 11:32:12	This log contains information about the import operation of the script 'Initalise Databse.sql' into project 'Database' on computer 'TRWKS039' by user'DeveloperTraining.
+02/12/2022 11:32:12	Started importing file: C:\workspaces\hoffertsang\Main\Source\P770 DataBase Driven Application\Task Set 3\Initalise Databse.sql 
+02/12/2022 11:32:12	File name C:\workspaces\hoffertsang\Main\Source\P770 DataBase Driven Application\Task Set 3\Initalise Databse.sql (size: 5136)
+02/12/2022 11:32:12	Parsing import script
+02/12/2022 11:32:12	Total number of batches in script: 11
+02/12/2022 11:32:12	Total number of statements in script: 14
+02/12/2022 11:32:12	The script was successfully imported into the project.
+02/12/2022 11:32:12	Analyzing schema objects...
+02/12/2022 11:32:12	Scanning project for duplicate elements
+02/12/2022 11:32:12	Finished duplicate element processing
+02/12/2022 11:32:12	A summary of the import was saved to the following location: C:\workspaces\hoffertsang\Main\Source\P770 DataBase Driven Application\Task Set 3\Database\Import Script Logs\Initalise Databse_sq_20221202113212.log
+02/12/2022 11:32:12	Click Finish to continue...
